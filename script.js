@@ -1,4 +1,4 @@
-API_KEY = 'AIzaSyBnboKXjRmZ2qKDqg_2FTsXXgvvOQ7J6uA'
+API_KEY = 'AIzaSyDXzkH6P7VPsi9MuI747nnuqIzzwcCsqJ4'
 
 
 // Initialize and add the map
