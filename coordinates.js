@@ -1,4 +1,4 @@
-colleges = {'St. Xaviers College':[27.6933777,85.3209263],
+const colleges = {'St. Xaviers College':[27.6933777,85.3209263],
 'Mt.Annapurna Campus':[28.2833518, 83.8535089],
 'Birendra Memorial College':[28.1234436, 82.29366033299863],
 'New Summit College':[27.699032199999998, 85.33952425161891],
