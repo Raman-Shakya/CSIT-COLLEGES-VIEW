@@ -1,0 +1,58 @@
+/* Set the size of the div element that contains the map */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+#map {
+  height: 100%;
+  /* The height is 400 pixels */
+  width: 100%;
+  /* The width is the width of the web page */
+}
+
+h1 {
+  text-align: center;
+  background: #87a1ab;
+  color: rgb(20, 20, 20);
+  padding: 0.2em;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
+
+.toolbar {
+  width: 300px;
+  background: #c0cdd1;
+  height: 100%;
+  overflow: auto;
+}
+
+#college-search-bar {
+  width: 100%;
+  margin: 10px 0;
+  padding: 4px;
+}
+
+#college-list {
+  display: flex;
+  flex-direction: column;
+}
+
+#college-list button {
+  width: 100%;
+  padding: 10px;
+  cursor: pointer;
+}
