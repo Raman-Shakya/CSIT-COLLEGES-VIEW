@@ -1,6 +1,11 @@
 const searchList = document.getElementById('college-list');
 const searchBar = document.getElementById('college-search-bar');
 
+colleges = {
+    ...colleges,
+    ...correctedColleges
+}
+
 let selected = '';
 let currentDOM = {};
 let markerMap = {};

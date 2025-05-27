@@ -1,4 +1,4 @@
-const colleges = {
+let colleges = {
     "Mechi Multiple Campus": {
         "location": "Bhadrapur, Jhapa",
         "lat": 26.5606124,
@@ -194,16 +194,6 @@ const colleges = {
         "lat": 28.0,
         "lng": 84.0
     },
-    "Niharika College": {
-        "location": "Biratnagar",
-        "lat": 28.0,
-        "lng": 84.0
-    },
-    "Birat Kchitize College": {
-        "location": "Biratnagar",
-        "lat": 28.0,
-        "lng": 84.0
-    },
     "Birat Multiple College": {
         "location": "Biratnagar",
         "lat": 26.5028892,
@@ -213,11 +203,6 @@ const colleges = {
         "location": "Biratnagar",
         "lat": 26.4519396,
         "lng": 87.2780349
-    },
-    "Godawari College": {
-        "location": "Itahari",
-        "lat": 28.0,
-        "lng": 84.0
     },
     "Hetauda City College": {
         "location": "Hetauda, Makawanpur",
@@ -273,11 +258,6 @@ const colleges = {
         "location": "Butawal",
         "lat": 28.0,
         "lng": 84.0
-    },
-    "Ambikeshowri Information & Technical Campus": {
-        "location": "Ghorai, Dang",
-        "lat": 28.11809,
-        "lng": 82.34024
     },
     "Bake Bageshori College": {
         "location": "Nepalgung",

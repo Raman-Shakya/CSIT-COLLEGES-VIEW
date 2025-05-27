@@ -31,4 +31,4 @@ print("\n\nFailed Colleges:")
 print(failed)
 
 with open('./collegeCoordinates.js', 'w', encoding='utf-8') as fp:
-    fp.write('const colleges = ' + json.dumps(locations, indent=4))
+    fp.write('let colleges = ' + json.dumps(locations, indent=4))
